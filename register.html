@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - QuickCare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="South_African_National_Department_of_Health_logo_2023.jpg" alt="logo" class="logo">
+            <h1>QuickCare</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="login.html"><button class="btn">Login</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main>
+        <section id="register-section">
+            <h2>Register</h2>
+            <form id="register-form">
+                <label for="reg-name">Name:</label>
+                <input type="text" id="reg-name" required>
+                
+                <label for="reg-surname">Surname:</label>
+                <input type="text" id="reg-surname" required>
+                
+                <label for="reg-email">Email:</label>
+                <input type="email" id="reg-email" required>
+                
+                <label for="reg-password">Password:</label>
+                <input type="password" id="reg-password" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
